@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    max-height: max-content;
+    display: flex;
+    background:linear-gradient(to right top,#65dfc9,#6cdbeb);
+    align-items: center;
+    justify-content: center;
+}
+
+/* .glass{
+    background: cornsilk;
+    min-height: 80vh;
+    width: 60%;
+    background: linear-gradient(to right bottom,rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+    border-radius: 2rem; 
+} */
+
+#mainNav{
+    position: fixed !important;
+    background-color: rgba(95, 158, 160, 0.418) !important;
+    margin-left: 350px;
+    width: 1175px !important;
+    z-index: 999;
+}
+
+.sidebar {
+    padding: 0 !important;
+    transform: transparent !important;
+    z-index: 18;
+}
+.mainContant {
+    padding: 0 !important;
+    /* margin-left: -22px; */
+    /* background:linear-gradient(to right top,#65dfc9,#6cdbeb); */
+    /* background-color:#65dfc9 ; */
+    /* height: 1000px; */
+    /* max-height: 100vh; */
+
+
+
+    z-index: 998;
+
+
+}
+
+.sideNav{
+    /* margin-top: -100px; */
+    min-height: 100vh;
+    width:350px;
+    background: cornsilk;
+    background: linear-gradient(to right bottom,rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+
+
+    /* background-color: rgb(101, 139, 158); */
+    border: none;
+}
+.side_view{
+    position: fixed !important;
+
+
+}
+.sideRow{
+    border: none;
+    height: 56.2px;
+    background-color: rgba(95, 158, 160, 0.418);
+}
+
+.News_text{
+    font-size: 20px;
+    margin-left: -20px;
+}
+.N_word{
+    color: red;
+}
+
+
+/* MAIN CONTANT */

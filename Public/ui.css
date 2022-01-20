@@ -1,0 +1,345 @@
+
+#mainNav{
+    background-color: rgba(95, 158, 160, 0.849) !important;
+}
+.all_text{
+    font-size: 20px;
+}
+
+.N_text{
+    color: red;
+    font-size:30px;
+    font-weight: bold;
+}
+
+
+.square1,.square2,.square3,.square4,.square5,.square6,.square7,.square8{
+    background: linear-gradient(to right bottom,
+    rgb(106, 225, 238),rgba(186, 232, 235, 0.5));
+    /* background-image: url("img/sports.jpeg"); */
+    height: 13rem;
+    width: 13rem;
+    position: absolute;
+    border-radius:2rem;
+}
+
+/* FOR SQUARE ! */
+.square1{
+    
+    top: 15%;
+    left: 7%;
+}
+
+
+.square1 img{
+    margin-top: 20px;
+    height: 50%;
+    width: 50%;
+
+
+    
+}
+.square1:hover{
+    transition: 1s;
+    transform: scale(1.2);
+}
+.square1 img:hover{
+    transition: 1s;
+    transform: scale(1.2);
+}
+.square1 p{
+    margin-top: 10px;
+    font-size:x-large;
+    font-weight:900;
+
+
+    background-image: linear-gradient(90deg,#f31010,#3d3d4c);
+    background-clip:text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.square1 p:hover{
+    transition: 2s;
+    transform: scale(1.2);
+}
+
+/* FOR SQUARE 2 */
+.square2{
+    top: 15%;
+    left: 29.5%;
+}
+
+
+.square2 img{
+    margin-top: 20px;
+    height: 50%;
+    width: 50%;
+
+
+    
+}
+.square2:hover{
+    transition: 1s;
+    transform: scale(1.2);
+}
+.square2 img:hover{
+    transition: 1s;
+    transform: scale(1.2);
+}
+.square2 p{
+    margin-top: 10px;
+    font-size:x-large;
+    font-weight:900;
+
+
+    background-image: linear-gradient(90deg,#f31010,#3d3d4c);
+    background-clip:text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.square2 p:hover{
+    transition: 2s;
+    transform: scale(1.2);
+}
+
+/* FOR SQUARE 3 */
+.square3{
+    top: 15%;
+    left: 52.5%;
+}
+
+
+.square3 img{
+    margin-top: 20px;
+    height: 50%;
+    width: 50%;
+
+
+    
+}
+.square3:hover{
+    transition: 1s;
+    transform: scale(1.2);
+}
+.square3 img:hover{
+    transition: 1s;
+    transform: scale(1.2);
+}
+.square3 p{
+    margin-top: 10px;
+    font-size:x-large;
+    font-weight:900;
+
+
+    background-image: linear-gradient(90deg,#f31010,#3d3d4c);
+    background-clip:text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.square3 p:hover{
+    transition: 2s;
+    transform: scale(1.2);
+}
+
+/* FOR SQUARE 4 */
+.square4{
+    top: 15%;
+    right: 7%;
+}
+
+
+
+.square4 img{
+    margin-top: 20px;
+    height: 50%;
+    width: 50%;
+
+
+    
+}
+.square4:hover{
+    transition: 1s;
+    transform: scale(1.2);
+}
+.square4 img:hover{
+    transition: 1s;
+    transform: scale(1.2);
+}
+.square4 p{
+    margin-top: 10px;
+    font-size:x-large;
+    font-weight:900;
+
+
+    background-image: linear-gradient(90deg,#f31010,#3d3d4c);
+    background-clip:text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.square4 p:hover{
+    transition: 2s;
+    transform: scale(1.2);
+}
+
+/* DOWN ROW SQUARE */
+
+/* FOR SQUARE 5 */
+.square5{
+    bottom: 15%;
+    left: 7%;
+}
+
+
+
+.square5 img{
+    margin-top: 20px;
+    height: 50%;
+    width: 50%;
+
+
+    
+}
+.square5:hover{
+    transition: 1s;
+    transform: scale(1.2);
+}
+.square5 img:hover{
+    transition: 1s;
+    transform: scale(1.2);
+}
+.square5 p{
+    margin-top: 10px;
+    font-size:x-large;
+    font-weight:900;
+
+
+    background-image: linear-gradient(90deg,#f31010,#3d3d4c);
+    background-clip:text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.square5 p:hover{
+    transition: 2s;
+    transform: scale(1.2);
+}
+
+
+/* FOR SQUARE 6 */
+.square6{
+    bottom: 15%;
+    left: 29.5%;
+}
+
+.square6 img{
+    margin-top: 20px;
+    height: 50%;
+    width: 50%;
+
+
+    
+}
+.square6:hover{
+    transition: 1s;
+    transform: scale(1.2);
+}
+.square6 img:hover{
+    transition: 1s;
+    transform: scale(1.2);
+}
+.square6 p{
+    margin-top: 10px;
+    font-size:x-large;
+    font-weight:900;
+
+
+    background-image: linear-gradient(90deg,#f31010,#3d3d4c);
+    background-clip:text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.square6 p:hover{
+    transition: 2s;
+    transform: scale(1.2);
+}
+
+/* FOR SQUARE 7 */
+.square7{
+    bottom: 15%;
+    left: 52.5%;
+}
+
+.square7 img{
+    margin-top: 15px;
+    height: 50%;
+    width: 50%;
+
+
+    
+}
+.square7:hover{
+    transition: 1s;
+    transform: scale(1.2);
+}
+.square7 img:hover{
+    transition: 1s;
+    transform: scale(1.2);
+}
+.square7 p{
+    margin-top: 10px;
+    font-size:x-large;
+    font-weight:900;
+
+
+    background-image: linear-gradient(90deg,#f31010,#3d3d4c);
+    background-clip:text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.square7 p:hover{
+    transition: 2s;
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+/* FOR SQUARE 8 */
+.square8{
+    bottom: 15%;
+    right: 7%;
+}
+
+
+.square8 img{
+    margin-top: 15px;
+    height: 50%;
+    width: 50%;
+
+
+    
+}
+.square8:hover{
+    transition: 1s;
+    transform: scale(1.2);
+}
+.square8 img:hover{
+    transition: 1s;
+    transform: scale(1.2);
+}
+.square8 p{
+    margin-top: 10px;
+    font-size:x-large;
+    font-weight:bold;
+
+
+    background-image: linear-gradient(90deg,#f31010,#3d3d4c);
+    background-clip:text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.square8 p:hover{
+    transition: 2s;
+    transform: scale(1.2);
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- HEADER SECTION -->
+<%- include('common/header') %>
+    <main>
+        <!-- NAVBAR SECTION -->
+        <%- include('common/navbar') %>
+
+            <!-- sidebar and contant -->
+            <div class="row ">
+                <!-- SideBar -->
+                <div class="col-3 sidebar">
+                    <div class="container text-center view_height glass_card side_view">
+                        <nav class="sideNav">
+                            <div class="row-12 sideRow">
+                                <p class="News_text"><span class="N_word">N</span>ews Web Aplication</p>
+                            </div>
+
+
+
+                            <div class="col-3 sidebar " style="display: flex; ">
+                                <div class="container text-center view_height glass_card">
+
+                                    <!-- WEATHER SECTION START -->
+                                    <%- include('common/SFDiv') %> 
+                                    <!-- WEATHER SECTION END -->
+
+                                    <!-- COVID SECTION START -->
+                                    <%- include('common/SSDiv') %> 
+                                    <!-- COVID SECTION END -->
+
+
+                                </div>
+                            </div>
+
+
+
+                        </nav>
+                    </div>
+                </div>
+
+                <!-- MAIN CONTANT -->
+                <div class="col-9 mainContant">
+
+                    <!-- CARD START -->
+                    <div class="d-flex flex-wrap justify-content-between">
+                        <% for(let news of dataNews){%>
+
+                            <div class="card mt-5 mb-2" style="width: 18rem;">
+                                <img class="card-img-top" src="<%= news.urlToImage%>  " alt="Card image cap"
+                                    height="150px" width="150px">
+                                <div class="card-body">
+                                    <p class="text-info">
+                                        <%= news.title %>
+                                    </p>
+                                    <p class="card-text">
+                                        <%= news.content %>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <%} %>
+
+                    </div>
+
+
+                    <!-- CARD END -->
+
+
+
+
+                </div>
+            </div>
+            <!-- <section class="glass">
+
+        </section> -->
+            <%- include('common/footer') %>
+
+
+
+
+
+    </main>
+    </body>
+
+</html>
